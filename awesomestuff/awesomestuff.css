@@ -1,0 +1,52 @@
+body {
+	font-family: Cochin, Georgia, Serif;
+	
+	background-color: #ffffff;
+	
+}
+.body{
+	text-align: center;
+	
+}
+.bigp{
+	
+	background-color: purple;
+	width: 1000px;
+	height:250px;
+}
+.button {
+    background-color: #a4dbb9;
+    border: 2px dotted #ffffff;
+    padding: 15px 32px;
+    text-align: right;
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+
+
+.about {
+    background-color: #676770;
+    border: 2px dotted #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+
+}
+.feed {
+    background-color: #3a2e66;
+    border: 2px dotted #ffffff;
+    padding: 15px 32px;
+    text-align: left;
+    display: inline-block;
+    font-size: 30px;
+
+}
+.au {
+
+	text-align: center;
+}
+
+
