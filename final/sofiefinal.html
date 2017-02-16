@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dance For a Cause</title>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+<link href="final.css" type="text/css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+<style>
+* {box-sizing:border-box}
+body 
+.mySlides {display:none}
+
+    
+    /*slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+<body class="body h">
+<h2 class="header h">Dance for Planned Parenthood</h2>
+
+
+<p>   <a href="workers.html">About us</a>  |  <a href="program.html">Program</a>  |  <a href="feminism.html">Feminism Club</a>
+</p>
+
+<div class="slideshow-container carouselwhole">
+<div class="mySlides fade ">
+  <div class="numbertext carouselwhole "></div>
+  <img src="dance1.jpg" width = 800px height= 400px;>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext carouselwhole"></div>
+  <img src="plannedparenthood.jpg" width = 800px height= 400px;>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext carouselwhole"></div>
+  <img src="dance2.jpg" width = 800px height= 400px;>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext carouselwhole"></div>
+  <img src="obamacare.png" width = 800px height= 400px;>
+  <div class="text"></div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext carouselwhole"></div>
+  <img src="dance3.jpg" width = 800px height= 400px;>
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 8 seconds
+}
+</script>
+<h3 class="mission h">Mission</h3>
+<div class="missiondeats">
+  With this event I would like to shed light on the fact that Planned Parenthood provides many women’s health services and that abortions make up only 3% of their services. And yet, this vital resource may well be defunded. Planned Parenthood provides cancer exams, contraception such as the birth control pill; it tests for and treats STIs, and provides sex education to over 1.5 million people per year. I want to make an expressive outlet for emotions on this topic into a dance show created and performed by Bentley students. This is a cause that many are passionate about, and a benefit show is a great way to get people involved who don’t know how to support or contribute otherwise. The dance show will be a repertory show choreographed and performed by Bentley students. 
+
+</div>
+<div>
+  
+
+</div>
+<h4 class="Details h">Details</h4>
+<div class="detailsdeats">
+  Due to an unfortunate relocation of venues, The location and time are still TBD, but will be updated shortly.
+</div>
+
+</body>
+</html> 

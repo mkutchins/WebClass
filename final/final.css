@@ -1,0 +1,58 @@
+.carouselwhole
+{
+	border-top-right-radius: 50px 50px;
+	border-top-left-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	text-align: center;
+}
+.body{
+
+}
+.header{
+	color:#3a3a3a;
+	text-align: center;
+
+}
+.mission{
+	margin: auto;
+	background-color: #f372be;
+	text-align: center; 
+	padding: 40px;
+background-image: url(bround.jpg);
+	background-repeat: repeat;
+
+
+}
+
+.Details{
+	background-color: #ffbcfa;
+	text-align: center; 
+	padding: 40px;
+background-image: url(bround.jpg);
+	background-repeat: repeat;
+}
+.h{
+	font-family: "Playfair Display";
+	text-align: center;
+}
+
+
+.pictures{
+	height: 150px
+}
+
+.jumbotron{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width: 80%;
+	margin: 0px 20px 0px 20px;
+	height: 20%;
+	border-top-left-radius: 50px 50px; 
+	border-bottom-left-radius: 50px 50px;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	background-color: pink;	
+	margin: auto;
+}
+
